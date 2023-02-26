@@ -1,0 +1,26 @@
+.hero__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    flex-direction: column;
+}
+
+.hero__button1 {
+    padding: 10px;
+    line-height: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+    letter-spacing: 0.2rem;
+    background-color: #ffcccc;
+    border: none;
+}
+
+.hero__button2 {
+    padding: 10px;
+    line-height: 20px;
+    justify-content: space-between;
+    letter-spacing: 0.2rem;
+    background-color: #ffcccc;
+    border: none;
+}
