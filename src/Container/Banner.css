@@ -1,0 +1,48 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-image {
+    /* opacity: 60%; */
+    border-radius: 40%;
+    height: 500px;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.article-paragraph {
+    background-image: url('https://vogueprod.blob.core.windows.net/vogueoutput19490901thumbnails/Spreads/0x420/79.jpg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    font-weight: 500;
+    color:black;
+    max-width: 500px;
+    max-height: 300px;
+    margin: auto 50px; 
+    font-weight: bold;
+}
+
+.article-title1 {
+    margin: auto 50px; 
+    max-width: 500px;
+    text-decoration-line: underline overline;
+}
+
+.article-title2 {
+    margin: auto 50px; 
+    max-width: 500px;
+    text-decoration-line: underline overline;
+}
+
+.banner-button1 {
+    margin: 10px 50px;
+    padding: 3px 5px;
+    line-height: 20px;
+    border: none;
+    background-color: #ffcccc;
+}
+    
