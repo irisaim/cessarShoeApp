@@ -6,6 +6,12 @@
     flex-direction: column;
 }
 
+.catalog-container {
+    margin-top: 90px;
+    letter-spacing: .2rem;
+    text-decoration-line: underline overline;
+}
+
 .hero__button1 {
     padding: 10px;
     line-height: 20px;

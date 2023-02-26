@@ -6,13 +6,14 @@
 
 
 h1 {
-	letter-spacing: 2px;
+	letter-spacing: .2rem;
+	text-decoration-line: underline overline;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .countdown-container{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .countdown-wrapper {

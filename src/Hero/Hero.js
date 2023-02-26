@@ -20,7 +20,9 @@ class Hero extends Component {
   render() {
   let beers = this.state.beers.map(beer => <li style={styles}> {beer.name} </li>);
   return(
-      <div className="hero__buttons">
+    <>
+   <h1 className='catalog-container'>See all products in our catalog</h1>
+      <div id="catalog" className="hero__buttons">
         <div className='buttons-container'>
         <button className="hero__button1" onClick={this.fetchBeers}> 
             All products
@@ -33,6 +35,7 @@ class Hero extends Component {
           { beers }
         </div>
       </div>
+      </>
   );
 }
 }
@@ -43,5 +46,3 @@ const styles = {
   }
   export default Hero;
   
-
-

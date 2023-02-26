@@ -10,4 +10,4 @@ const CarouselControls = ({prev, next}) => {
 
 }
 
-export default CarouselControls;
+export default CarouselControls

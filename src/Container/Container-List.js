@@ -4,7 +4,7 @@ import { FaShoppingCart, FaHeart, FaStar } from 'react-icons/fa';
 
 function ContainerList(props) {
   return (
-  <div className='productList'>
+  <div id="trends" className='productList'>
       <div key={props.id} className='productCard'>
           <img src={props.image} alt='product-image' className='productImage'/>
 
