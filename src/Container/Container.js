@@ -7,7 +7,7 @@ import contents from './content'
 
 function Container() {
   const slides = [
-    "https://www.brides.com/thmb/wR1PigNfpPo0tEJQqdNRao0lloo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/jimmychoo-ad792710b4fa43d988436cf4ecc6611e.jpg",
+    "https://i.pinimg.com/originals/8b/47/b8/8b47b8e8666a7c4b707ceacf065cd785.jpg",
     "https://assets.glamour.de/photos/627e40cab16db596b28c216e/16:9/w_2560%2Cc_limit/Schuhtrends-22-23-Aufmacher.jpg",
     "https://images.vs-static.com/pnHOO_9oNam5tWrP-sAkwniRRNw=/0x371:1080x979/750x0/194344065_808498170041594_6496246295321837314_n_b6c0056aaf/194344065_808498170041594_6496246295321837314_n_b6c0056aaf.jpg",
     "https://cdn.shopify.com/s/files/1/0266/4621/6739/products/image_bbbec49c-790d-4a57-bfde-dcb796a88fb8_large.png?v=1572014171",
