@@ -1,8 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import './Footer.css';
 import Modal from 'react-modal';
 
 function Footer() {
+
+  const Contact = () => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [emailSent, setEmailSent] = useState(false);
+};
 
   const customStyles = {
     content: {
@@ -49,10 +56,19 @@ function Footer() {
             >
               <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Send us a message</h2>
               <form>
-                <textarea className='textArea'></textarea>
+              <div id="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your email address" />
+            <textarea placeholder="Your message"></textarea>
+            <button>Send Message</button>
+            <span>Thank you for your message, we will be in touch in no time!</span>
+        </div>
+    
               </form>
               <button onClick={closeModal} className="sendMessage">Send</button>
             </Modal>
+
+            
         </div>
       );
 }

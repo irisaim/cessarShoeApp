@@ -5,7 +5,7 @@ import './Title.css';
 function Header() {
     return (
           <div className="nav-container">
-            <img src="https://di2ponv0v5otw.cloudfront.net/posts/2023/02/14/63ec6820acf462f9a48c0c14/s_63ec6820acf462f9a48c0c15.jpg" className='logo-image' />
+            <img src='https://media.aldoshoes.com/v3/product/barbiepltfm/660-003-032/barbiepltfm_pink_660-003-032_look-part_sq_nt_1200x1200.jpg' />
             
               <h1>C e s s a r</h1>
                 <div className="banner">

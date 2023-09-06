@@ -12,6 +12,12 @@
     width: 170px;
   }
 
+  img {
+    idth: 150px;
+    height: 167px;
+    border-radius: 134px;
+  }
+
   h1 {
     margin-left: 20px;
     color: black;
@@ -89,18 +95,21 @@
   .nav-item>a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
   }
   
   .nav-item:after {
+    font-size: 20px;
     content: "";
     display: block;
-    height: 3px;
+    height: 7px;
     width: 0;
     background: transparent;
     transition: width 0.7s ease, background-color 0.5s ease;
   }
   
   .nav-item:hover:after {
+    font-size: 20px;
     cursor: pointer;
     width: 100%;
     background: black;
