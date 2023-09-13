@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import FreeShipping  from './Header/FreeShipping';
 import Header from './Header/Header'
+import SearchBar from './Header/SearchBar'
 import Container from './Container/Container';
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
@@ -10,9 +12,11 @@ import Countdown from './CountdownTimer/CountdownTimer';
 function App() {
     return (
       <div className="App">
+        <FreeShipping />
         <Header />
-        <Countdown timeTillDate="05 26 2019, 6:00 am" 
-		timeFormat="MM DD YYYY, h:mm a" />
+        <SearchBar/>
+        <Countdown timeTillDate="09 24 2023, 6:00 am" 
+		        timeFormat="MM DD YYYY, h:mm a" />
         <Container />
         <Hero />
         <Footer />
