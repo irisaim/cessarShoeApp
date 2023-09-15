@@ -1,6 +1,8 @@
 import React, { Component, useState } from 'react'
 import './Footer.css';
 import Modal from 'react-modal';
+import { SocialIcon } from 'react-icons';
+
 
 function Footer() {
 
@@ -43,7 +45,7 @@ function Footer() {
     }
   
   return (
-    
+    <div>
       <div id="footer" className="footer">
           <h4 className='footer-text'>Irina Saim copyright 2023</h4>
           <button className='modal-buttonContact' onClick={openModal}>Contact us</button>
@@ -68,7 +70,28 @@ function Footer() {
               <button onClick={closeModal} className="sendMessage">Send</button>
             </Modal>
 
-            
+      
+        </div>
+              {/* <div className="socialicons">
+
+              <ul className="nav-menu">
+                <li className="social-item">
+                  <a href="https://www.instagram.com/itsmeiri"></a>
+                </li>
+                <li className="social-item">
+                  <a href="https://www.linkedin.com/in/irina-saim"></a>
+                </li>
+                <li className="social-item">
+                  <a href="https://www.youtube.com"></a>
+                </li>
+                <li className="social-item">
+                  <a href="https://www.facebook.com"></a>
+                </li>
+                <li className="social-item">
+                <SocialIcon url="https://twitter.com" />
+                </li>
+              </ul>
+        </div> */}
         </div>
       );
 }

@@ -4,9 +4,9 @@ import Header from './Header/Header'
 import SearchBar from './Header/SearchBar'
 import Container from './Container/Container';
 import Footer from './Footer/Footer';
+// import SocialIcons from './Footer/SocialIcons';
 import Hero from './Hero/Hero';
 import Countdown from './CountdownTimer/CountdownTimer';
-// import Banner from 'react-js-banner';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Container />
         <Hero />
         <Footer />
+        {/* <SocialIcons /> */}
       </div>
     );   
   }
