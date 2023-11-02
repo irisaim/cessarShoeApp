@@ -1,8 +1,8 @@
 import React, { Component, useState } from 'react'
 import './Footer.css';
 import Modal from 'react-modal';
-import { SocialIcon } from 'react-icons';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faYoutube, faFacebook, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
 
@@ -48,7 +48,7 @@ function Footer() {
     <div>
       <div id="footer" className="footer">
           <h4 className='footer-text'>Irina Saim copyright 2023</h4>
-          <button className='modal-buttonContact' onClick={openModal}>Contact us</button>
+            <button className='modal-buttonContact' onClick={openModal}>Contact us</button>
             <Modal
               isOpen={modalIsOpen}
               onAfterOpen={afterOpenModal}
@@ -61,8 +61,8 @@ function Footer() {
               <div id="contact-form">
             <input type="text" placeholder="Your Name" />
             <input type="email" placeholder="Your email address" />
-            <textarea placeholder="Your message"></textarea>
-            <button>Send Message</button>
+            <textarea placeholder="Your message here"></textarea>
+            <button>Send</button>
             <span>Thank you for your message, we will be in touch in no time!</span>
         </div>
     
@@ -70,29 +70,22 @@ function Footer() {
               <button onClick={closeModal} className="sendMessage">Send</button>
             </Modal>
 
-      
+        <div className="socialicons">
+          <a href="https://www.youtube.com" target="_blank" className="youtube social">
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
+          </a>
+          <a href="https://www.facebook.com" target="_blank" className="facebook social">
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
+          </a>
+          <a href="https://www.linkedin.com/in/irina-saim" target="_blank" className="linkedin social">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a href="https://www.instagram.com/itsmeiri" target="_blank" className="instagram social">
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
         </div>
-              {/* <div className="socialicons">
-
-              <ul className="nav-menu">
-                <li className="social-item">
-                  <a href="https://www.instagram.com/itsmeiri"></a>
-                </li>
-                <li className="social-item">
-                  <a href="https://www.linkedin.com/in/irina-saim"></a>
-                </li>
-                <li className="social-item">
-                  <a href="https://www.youtube.com"></a>
-                </li>
-                <li className="social-item">
-                  <a href="https://www.facebook.com"></a>
-                </li>
-                <li className="social-item">
-                <SocialIcon url="https://twitter.com" />
-                </li>
-              </ul>
-        </div> */}
-        </div>
+      </div>
+    </div>
       );
 }
 
