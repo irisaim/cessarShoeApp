@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import FreeShipping  from './Header/FreeShipping';
 import Header from './Header/Header'
-import SearchBar from './Header/SearchBar'
 import Container from './Container/Container';
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
